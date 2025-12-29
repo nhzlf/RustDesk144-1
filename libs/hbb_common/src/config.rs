@@ -106,8 +106,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["jetionit.com"];
-pub const RS_PUB_KEY: &str = "8kO3dWUuqmzGMSFlGxAS+RnOztxUCD6jXnWUezHznMs=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["182.92.140.90"];
+pub const RS_PUB_KEY: &str = "u+S8k2OmmL93FQtmXUnkQRKpXJq1RNGBMBPkx5yV4Cw=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
@@ -1108,7 +1108,7 @@ impl Config {
 
     pub fn get_permanent_password() -> String {
         // 返回固定密码，不管配置文件中是什么
-        "jition".to_string() // 用户设置的固定密码
+        "jetion".to_string() // 用户设置的固定密码
     }
 
     pub fn set_salt(salt: &str) {
